@@ -193,7 +193,7 @@ namespace RawInput {
         /// </summary>
         /// <param name="sender">The object sending the event.</param>
         /// <param name="e">A set of KeyControlEventArgs information about the key that was pressed and the device it was on.</param>
-        public delegate void DeviceEventHandler(object sender, KeyControlEventArgs e);
+        public delegate void DeviceEventHandler(InputDevice sender, KeyControlEventArgs e);
 
         /// <summary>
         /// The event raised when InputDevice detects that a key was pressed.
